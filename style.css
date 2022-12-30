@@ -5,42 +5,57 @@
 }
 
 .main-container {
-  /* max-width: 100vw; */
   min-height: 100vh;
-  /* background-color: red; */
-  background-image: url(/img/bg2.jpg);
   background-size: cover;
-  opacity: 0.7;
 
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-rows: 15% 85%;
 }
 
 /*Main sections*/
-.left-side-section {
-  background-color: rgba(255, 0, 255, 0.3);
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: #d4d4dc;
+  background-color: rgb(21, 20, 20);
 }
 
-.right-side-section {
-  background-color: rgba(0, 0, 255, 0.3);
-}
-
-/* Right side sections */
-
-.right-side-sections {
+.content-section {
   display: grid;
-  grid-template-rows: 10% 80% 10%;
-  height: 100vh;
+  grid-template-columns: 80% 20%;
 }
 
-.right-side-nav-section {
-  background-color: rgba(0, 0, 255, 0.5);
+.info-section {
+  background-color: #393f4d;
 }
 
-.right-side-content-section {
-  background-color: rgba(100, 100, 50, 0.5);
+.main-content {
+  background-color: #1d1e22;
+  /* background-color: #feda6a; */
 }
 
-.right-side-footer-section {
-  background-color: rgba(100, 200, 255, 0.5);
+/* title section */
+.title {
+  font-family: "Seymour One", sans-serif;
+}
+.login-btn a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #feda6a;
+  border: none;
+  color: #1d1e22;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.login-btn a:hover {
+  background-color: #7d620e;
+  color: white;
 }
